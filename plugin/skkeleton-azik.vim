@@ -878,6 +878,12 @@ call skkeleton#register_kanatable('rom',{
 "  \ })
 
 call skkeleton#register_kanatable('rom',{
+  \ '!':     ['!', ''],
+  \ '-':     ['-', ''],
+  \ '?':     ['?', ''],
+ \ })
+
+call skkeleton#register_kanatable('rom',{
   \ 'z;':    ['゛', ''],
   \ 'z:':    ['゜', ''],
   \ 'xxh':   ['←', ''],
