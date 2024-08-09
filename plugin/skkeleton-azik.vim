@@ -820,7 +820,7 @@ call skkeleton#register_kanatable('rom',{
   \ 'wr':    ['われ', ''],
   \ })
 
- call skkeleton#register_kanatable('rom',{
+"  call skkeleton#register_kanatable('rom',{
 "   \ '0':     ['0', ''],
 "   \ '1':     ['1', ''],
 "   \ '2':     ['2', ''],
@@ -881,7 +881,7 @@ call skkeleton#register_kanatable('rom',{
   \ '!':     ['!', ''],
   \ '-':     ['-', ''],
   \ '?':     ['?', ''],
- \ })
+  \ })
 
 call skkeleton#register_kanatable('rom',{
   \ 'z;':    ['゛', ''],
